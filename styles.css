@@ -1,0 +1,114 @@
+/*bottom-----------------------------------------------------------------------*/
+.left-list {
+  list-style: none;
+  flex: 1;
+  justify-content: flex-start;
+  padding-left: 140px;
+  line-height: 25px;
+  letter-spacing: 0em;
+}
+
+.right-list {
+  text-align: right;
+  list-style: none;
+  flex: 1;
+  justify-content: flex-end;
+  padding-right: 110px;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.bottom {
+            display: flex; 
+            background-color: #282828;
+            color: white;
+            height: 15rem;
+        }
+/*top----------------------------------------------------------------------------*/          
+.top {
+  display: flex;
+  background-color: #FFCD9E;
+  height:30rem;
+}
+.first-text {
+            line-height: 54px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 562px;
+            height: 108px;
+            top: 83px;
+            left: 136px;
+            position: absolute;
+
+}
+.second-text {
+            line-height: 32px;
+            letter-spacing: 0em;
+            text-align: left;
+            width: 495px;
+            height: 81px;
+            top: 219px;
+            left: 136px;
+            position: absolute;
+}
+.third-text {
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 227px;
+  height: 81px;
+  top: 315px;
+  left: 136px;
+  position: absolute;
+}
+.right-top {
+  flex: 1;
+            background: #FFCD9E;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 20px;
+            max-height: 100%;
+            max-width: 100%;
+}
+
+
+/*for  entire page ----------------------------------------------------------------------------*/
+.entire-page {
+  display: flex;
+  flex-direction: column;
+}
+
+/*buttons------------------------------------------------------------------------*/
+.bordered-button {
+  width: 216px;
+  height: 48px;
+  position: absolute;
+  top: 411px;
+  left: 496px;
+  border-radius: 6px;
+  background: linear-gradient(0deg,  #000000,#000000);
+  border: 3px solid #000000;
+  color: #fff;
+  font-size: 21px; 
+  text-align: center;
+  line-height: 60px; 
+  cursor: pointer;
+}
+.email-box {
+  width: 300px;
+           height: 50px;
+           position: absolute;
+           top: 411px;
+           left: 136px;
+           border-radius: 6px;
+           border: 3px solid #000000;
+           line-height: 55px;
+           letter-spacing: 0em;
+           text-align: left;
+           color: #888888;
+           background-color: #FFFFFF;
+}
+
+  
+  
